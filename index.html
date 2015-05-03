@@ -25,8 +25,9 @@
 		</footer>
 		<script type="text/template" id="item-template">
 			<div class="view">
-				<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
+				<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %> >
 				<label><%- title %> <%= completed ? ' ..Donzo' : ''%></label>
+				<button class="priority-btn"></button>
 				<button class="edit-btn"></button>
 				<button class="destroy"></button>
 			</div>
